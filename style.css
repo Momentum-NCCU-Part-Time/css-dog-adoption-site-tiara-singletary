@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap');
+
+header{
+    background-color: 004175;
+    padding: 5px 10px;
+    border-color:#89DEEF;
+    margin: 0 auto;
+}
+.header{
+    color:white;
+    font-family: Oswald;
+}
+   
+   
+.nav, header{
+   color: white;
+   flex-wrap: wrap;
+   
+   
+   
+   
+}
+.nav {
+    display: inline;
+    justify-content: space-evenly;
+    float:right;
+    font-family: Open Sans;
+    color: white;
+}
+
+body{
+text-align: justify;
+justify-content: center;
+}
+
+footer{
+    display:flex;
+    flex-wrap: wrap;
+    height: 12rem;
+   
+   
+}
+.donate{
+    flex: 1 1 auto;
+    height: 200px ;
+    text-align: center;
+    background-color: #A6A9F0 ;
+   background: 
+   /*top, transparent blue, faked with gradient */
+   linear-gradient(rgba(30, 9, 110, 0.8), 
+   rgba(30, 9, 110, 0.8)),
+   /* bottom, image */
+   url(images/donate.jpg)
+}
+.volunteer{
+    flex: 1 1 auto;
+    height: 200px;
+    text-align: center;
+    background-color: #A6A9F0 ;
+    background:
+    /*top, transparent blue, faked with gradient */
+    linear-gradient(rgba(30, 9, 110, 0.8), 
+    rgba(30, 9, 110, 0.8)),
+   /* bottom, image */
+   url(images/volunteer.jpg)
+}
+.location{
+    flex: 1 1 auto;
+    text-align: center;
+    justify-content: center;
+    height: 200px;
+    background-color: #A6A9F0 ;
+    background: 
+    /*top, transparent blue, faked with gradient */
+   linear-gradient(rgba(30, 9, 110, 0.8), 
+   rgba(30, 9, 110, 0.8)),
+   /* bottom, image */
+   url(images/location.png)
+}
+.ol{
+
+}
+Beans{
+color:blue;
+}
+.zelda{
+
+}
+.baby{
+
+}
+.tom{
+
+}
+.marco{
+
+}
+.shackleton{
+
+}
+.midge{}
+.ladybird{}
+.mina{}
+
+figcaption{
+    color: white;
+    background-color: #89DEEF;
+}
